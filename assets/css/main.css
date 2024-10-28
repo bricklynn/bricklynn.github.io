@@ -964,7 +964,7 @@ section,
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   z-index: 1;
 }
 
@@ -1743,4 +1743,75 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+@media (max-width: 576px) {
+  .why-us .card-item {
+    padding: 20px 10px;
+  }
+
+  .why-us .card-item span {
+    font-size: 1rem;
+  }
+
+  .why-us .card-item h4 {
+    font-size: 0.9rem;
+    margin: 0px 0 10px 0 !important;
+    /* Smaller heading for mobile */
+  }
+
+  .why-us .card-item h4 a:hover {
+    color: black !important;
+  }
+
+  .why-us .card-item p {
+    font-size: 0.7rem;
+    /* Smaller paragraph text for mobile */
+  }
+}
+
+@media (max-width: 780px) {
+  .why-us .card-item {
+    padding: 20px 10px;
+  }
+
+  .why-us .card-item span {
+    font-size: 1rem;
+  }
+
+  .why-us .card-item h4 {
+    font-size: 0.9rem;
+    margin: 0px 0 10px 0 !important;
+    /* Smaller heading for mobile */
+  }
+
+  .why-us .card-item h4 a:hover {
+    color: black !important;
+  }
+
+  .why-us .card-item p {
+    font-size: 0.7rem;
+    /* Smaller paragraph text for mobile */
+  }
+}
+
+.why-us .card-item h4 a:hover {
+  color: black !important;
+}
+
+.modal-content {
+  background: rgba(255, 255, 255, 0.05);
+  /* Semi-transparent background */
+  backdrop-filter: blur(10px) saturate(150%);
+  /* Blur and saturation */
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+  /* For Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* Light border for definition */
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Soft shadow for depth */
+  padding: 20px;
+  /* Inner padding for content */
 }

@@ -59,34 +59,15 @@
           <ul>
             <li><a href="#hero" class="active">Home<br></a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
+            <li><a href="menu.html">Menu</a></li>
             <li><a href="#specials">Specials</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#chefs">Chefs</a></li>
             <li><a href="#gallery">Gallery</a></li>
-            <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
-              </ul>
-            </li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-        <a class="btn-book-a-table d-none d-xl-block" href="#book-a-table">Book a Table</a>
+        <a class="btn-book-a-table d-none d-xl-block" href="https://g.page/r/CZBbWTlhpSHSEB0/review">Review Us</a>
 
       </div>
 
@@ -95,6 +76,28 @@
   </header>
 
   <main class="main">
+<!-- Order Online Modal -->
+<div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="orderModalLabel" style="color: #f7ac32;">Order Online</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <p style="color: white;">Choose your preferred platform:</p>
+        <div class="d-flex justify-content-center gap-4">
+          <a href="https://zomato.onelink.me/xqzv/3xzifme1" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Zomato_Logo.svg/1200px-Zomato_Logo.svg.png" style="height: 20px;" alt="Zomato" class="order-logo">
+          </a>
+          <a href="https://www.swiggy.com/menu/968633?source=sharing" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Swiggy_logo_%28old%29.svg/2560px-Swiggy_logo_%28old%29.svg.png" style="height: 30px;" alt="Swiggy" class="order-logo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
@@ -107,8 +110,8 @@
             <h2 data-aos="fade-up" data-aos-delay="100">Welcome to <span>Bricklynn</span></h2>
             <p data-aos="fade-up" data-aos-delay="200">Baked Fresh, Pronto! Right off the Block.</p>
             <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+              <a href="#" class="cta-btn" data-bs-toggle="modal" data-bs-target="#orderModal">Order Online</a>
               <a href="menu.html" class="cta-btn">Our Menu</a>
-              <a href="#book-a-table" class="cta-btn">Book a Table</a>
             </div>
           </div>
           <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5 mt-lg-0">
@@ -158,7 +161,7 @@ Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire 
 
         <div class="row gy-4">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="card-item">
               <span>01</span>
               <h4><a class="stretched-link">Where Quality<br>Meets Affordability</a></h4>
@@ -166,7 +169,7 @@ Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire 
             </div>
           </div><!-- Card Item -->
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="card-item">
               <span>02</span>
               <h4><a class="stretched-link">A Unified Joint<br>Pizza, Burger, Fries</a></h4>
@@ -174,7 +177,7 @@ Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire 
             </div>
           </div><!-- Card Item -->
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="card-item">
               <span>03</span>
               <h4><a class="stretched-link">QSR Service<br>with Cafe Vibe</a></h4>
@@ -484,80 +487,7 @@ Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire 
 
     </section><!-- /Gallery Section -->
 
-    <!-- Chefs Section -->
-    <section id="chefs" class="chefs section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <p>Necessitatibus eius consequatur</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Master Chef</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Patissier</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>Cook</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Chefs Section -->
-
-    <!-- Contact Section -->
+       <!-- Contact Section -->
     <section id="contact" class="contact section">
 
       <!-- Section Title -->
