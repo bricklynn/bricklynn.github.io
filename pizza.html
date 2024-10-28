@@ -24,7 +24,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/menu-main.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
 
 </head>
 
@@ -57,15 +57,17 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html" class="active">Home<br></a></li>
-            <li><a href="index.html#about">About</a></li>
+            <li><a href="#hero" class="active">Home<br></a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="menu.html">Menu</a></li>
-            <li><a href="index.html#specials">Specials</a></li>
-            <li><a href="index.html#gallery">Gallery</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="#specials">Specials</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
+
+        <a class="btn-book-a-table d-none d-xl-block" href="https://g.page/r/CZBbWTlhpSHSEB0/review">Review Us</a>
 
       </div>
 
@@ -74,6 +76,28 @@
   </header>
 
   <main class="main">
+<!-- Order Online Modal -->
+<div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="orderModalLabel" style="color: #f7ac32;">Order Online</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <p style="color: white;">Choose your preferred platform:</p>
+        <div class="d-flex justify-content-center gap-4">
+          <a href="https://zomato.onelink.me/xqzv/3xzifme1" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Zomato_Logo.svg/1200px-Zomato_Logo.svg.png" style="height: 20px;" alt="Zomato" class="order-logo">
+          </a>
+          <a href="https://www.swiggy.com/menu/968633?source=sharing" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Swiggy_logo_%28old%29.svg/2560px-Swiggy_logo_%28old%29.svg.png" style="height: 30px;" alt="Swiggy" class="order-logo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
@@ -86,93 +110,78 @@
             <h2 data-aos="fade-up" data-aos-delay="100">Welcome to <span>Bricklynn</span></h2>
             <p data-aos="fade-up" data-aos-delay="200">Baked Fresh, Pronto! Right off the Block.</p>
             <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-              <a href="index.html" class="cta-btn">Our Story</a>
-              <a href="https://g.page/r/CZBbWTlhpSHSEB0/review" class="cta-btn">Review Us</a>
+              <a href="#" class="cta-btn" data-bs-toggle="modal" data-bs-target="#orderModal">Order Online</a>
+              <a href="menu.html" class="cta-btn">Our Menu</a>
             </div>
           </div>
           <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5 mt-lg-0">
-            <a href="#why-us">Scroll Down for Menu</a>
+            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
           </div>
         </div>
       </div>
 
     </section><!-- /Hero Section -->
 
-    
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="assets/img/about.jpg" class="img-fluid about-img" alt="">
+          </div>
+          <div class="col-lg-6 order-2 order-lg-1 content">
+            <h3>Banking to Bricklynn: A Culinary Journey</h3>
+            <p>
+              <br>
+              Nilay Chowdhury’s journey from banking to founding Bricklynn is a story of passion and resilience. Leaving behind a stable banking career, Nilay pursued his dream of creating something unique — a cozy QSR where quality meets affordability. With Bricklynn, he aimed to make delicious food accessible to everyone, blending the warmth of a café with the efficiency of a QSR.
+<br><br>
+Despite challenges in the food industry, Nilay’s financial acumen helped him navigate obstacles creatively. His winning formula? Quality food made with love, pocket-friendly prices, a welcoming ambiance, and smart social media marketing.
+<br><br>
+Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire others to chase their dreams. Looking forward, he envisions expanding Bricklynn nationwide and introducing new, customer-inspired dishes. “Food is love, and love is food. I'm just spreading that love, one meal at a time,” Nilay reflects.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
 
     <!-- Why Us Section -->
     <section id="why-us" class="why-us section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Menu</h2>
-        <p>Bricklynn's Decadent Flavors</p>
+        <h2>WHY US</h2>
+        <p>Why Choose Bricklynn</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="row gy-4">
 
-          <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="card-item">
-              <h4><a href="kickstarter.html" class="stretched-link">Kick<br>Starters</a></h4>
-          <p>Tantalizing starters to setting the stage for your cravings.</p>
+              <span>01</span>
+              <h4><a class="stretched-link">Where Quality<br>Meets Affordability</a></h4>
+              <p>Offering delicious, high-quality meals that won't break the bank, making good food accessible for everyone.</p>
             </div>
           </div><!-- Card Item -->
 
-          <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="card-item">
-              <h4><a href="burger.html" class="stretched-link">Smash<br>Burgers</a></h4>
-          <p>Juicy crafted burgers loaded with smashing bold flavors.</p>
+              <span>02</span>
+              <h4><a class="stretched-link">A Unified Joint<br>Pizza, Burger, Fries</a></h4>
+              <p>An innovative menu featuring a mix of favorites, crafted to satisfy every craving in one cozy spot.</p>
             </div>
           </div><!-- Card Item -->
 
-          <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="card-item">
-              <h4><a href="bread.html" class="stretched-link">Garlic<br>Breads</a></h4>
-              <p>Soft, cheesy stuffed breads. Goodness in every bite.</p>
-            </div>
-          </div><!-- Card Item -->
-
-          <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-              <h4><a href="pasta.html" class="stretched-link">Pasta<br>& Stuff</a></h4>
-          <p>Rich and creamy pasta dishes to comfort with every twirl.</p>
-            </div>
-          </div><!-- Card Item -->
-
-          <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-          <h4><a href="pizza.html" class="stretched-link">Pizza<br>All Stars</a></h4>
-          <p>Handcrafted pizzas with flavors to suit every pizza lover.</p>
-        </div>
-          </div><!-- Card Item -->
-
-          <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-          <h4><a href="wrap.html" class="stretched-link">Gyro<br>Wraps</a></h4>
-          <p>Hearty flavourful wraps from Mediterranean Palates</p>
-        </div>
-          </div><!-- Card Item -->
-
-          <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-          <h4><a href="fry.html" class="stretched-link">Fries<br>& Dips</a></h4>
-          <p>Crispy juicy fries and series of dips for the perfect snack.</p>
-            </div>
-          </div><!-- Card Item -->
-
-          <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-          <h4><a href="beverage.html" class="stretched-link">Chilled<br>Freshness</a></h4>
-          <p>Refreshing drinks to pair with your meal and quench your thirst.</p>
-        </div>
-          </div><!-- Card Item -->
-
-          <div class="col-4 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-              <h4><a href="dessert.html" class="stretched-link">Divine<br>Desserts</a></h4>
-              <p>Sweet treats to end your meal on a delightful delicious note.</p>
+              <span>03</span>
+              <h4><a class="stretched-link">QSR Service<br>with Cafe Vibe</a></h4>
+              <p>Combining the efficiency of a quick-service restaurant with the warmth of a café for a unique dining experience.</p>
             </div>
           </div><!-- Card Item -->
 
@@ -281,31 +290,8 @@
   </div>
 
 </section><!-- /Specials Section -->
-<!-- About Section -->
-<section id="about" class="about section">
+    
 
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="row gy-4">
-      <div class="col-lg-6 order-1 order-lg-2">
-        <img src="assets/img/about.jpg" class="img-fluid about-img" alt="">
-      </div>
-      <div class="col-lg-6 order-2 order-lg-1 content">
-        <h3>Banking to Bricklynn: A Culinary Journey</h3>
-        <p>
-          <br>
-          Nilay Chowdhury’s journey from banking to founding Bricklynn is a story of passion and resilience. Leaving behind a stable banking career, Nilay pursued his dream of creating something unique — a cozy QSR where quality meets affordability. With Bricklynn, he aimed to make delicious food accessible to everyone, blending the warmth of a café with the efficiency of a QSR.
-<br><br>
-Despite challenges in the food industry, Nilay’s financial acumen helped him navigate obstacles creatively. His winning formula? Quality food made with love, pocket-friendly prices, a welcoming ambiance, and smart social media marketing.
-<br><br>
-Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire others to chase their dreams. Looking forward, he envisions expanding Bricklynn nationwide and introducing new, customer-inspired dishes. “Food is love, and love is food. I'm just spreading that love, one meal at a time,” Nilay reflects.
-        </p>
-      </div>
-    </div>
-
-  </div>
-
-</section><!-- /About Section -->    
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
 
@@ -418,6 +404,7 @@ Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire 
 
     </section><!-- /Testimonials Section -->
 
+    <!-- Gallery Section -->
     <section id="gallery" class="gallery section">
 
       <!-- Section Title -->
