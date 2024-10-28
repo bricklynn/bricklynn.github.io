@@ -970,7 +970,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, #060400, transparent 35%);
+  background: color-mix(in srgb, #060400, transparent 40%);
   position: absolute;
   inset: 0;
   z-index: 2;
