@@ -1202,20 +1202,8 @@ section,
   position: relative;
 }
 
-.menu .menu-content::after {
-  content: "......................................................................""....................................................................""....................................................................";
-  position: absolute;
-  left: 20px;
-  right: 0;
-  top: -4px;
-  z-index: 1;
-  color: color-mix(in srgb, var(--default-color), transparent 60%);
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
 .menu .menu-content a {
   color: var(--heading-color);
-  background: var(--background-color);
   padding-right: 10px;
   position: relative;
   z-index: 3;
@@ -1223,18 +1211,25 @@ section,
   transition: 0.3s;
 }
 
+@media (max-width: 600px) {
+  .menu .menu-content span {
+    align-items: right;
+    text-align: right;
+  }
+}
+
 .menu .menu-content a:hover {
   color: var(--accent-color);
 }
 
 .menu .menu-content span {
-  background: var(--background-color);
   color: var(--accent-color);
   position: relative;
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
 }
+
 
 .menu .menu-ingredients {
   margin-left: 95px;
