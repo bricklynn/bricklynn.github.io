@@ -1035,6 +1035,15 @@ section,
   }
 }
 
+
+@media (max-width: 768px) {
+  .logo-nav-image {
+    align-items: center !important;
+    align-self: center !important;
+    align-content: center !important;
+  }
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
