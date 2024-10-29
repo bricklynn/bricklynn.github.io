@@ -1244,6 +1244,13 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 50%);
 }
 
+.menu .menu-description {
+  margin-left: 95px;
+  font-size: 14px;
+  font-family: var(--nav-font);
+  color: color-mix(in srgb, var(--default-color), transparent 0%);
+}
+
 /*--------------------------------------------------------------
 # Specials Section
 --------------------------------------------------------------*/

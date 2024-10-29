@@ -13,16 +13,16 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul class="menu-filters isotope-filters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-starters">Starters</li>
-              <li data-filter=".filter-salads">Salads</li>
-              <li data-filter=".filter-specialty">Specialty</li>
+              <li data-filter=".filter-hand-tossed">Starters</li>
+              <li data-filter=".filter-deep-dish">Salads</li>
+              <li data-filter=".filter-thin-crust">Specialty</li>
             </ul>
           </div>
         </div><!-- Menu Filters -->
 
         <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-6 menu-item isotope-item filter-starters">
+          <div class="col-lg-6 menu-item isotope-item filter-hand-tossed">
             <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Lobster Bisque</a><span>$5.95</span>
@@ -32,7 +32,7 @@
             </div>
           </div><!-- Menu Item -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-specialty">
+          <div class="col-lg-6 menu-item isotope-item filter-thin-crust">
             <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Bread Barrel</a><span>$6.95</span>
@@ -42,7 +42,7 @@
             </div>
           </div><!-- Menu Item -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-starters">
+          <div class="col-lg-6 menu-item isotope-item filter-hand-tossed">
             <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Crab Cake</a><span>$7.95</span>
@@ -52,7 +52,7 @@
             </div>
           </div><!-- Menu Item -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-salads">
+          <div class="col-lg-6 menu-item isotope-item filter-deep-dish">
             <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Caesar Selections</a><span>$8.95</span>
@@ -62,7 +62,7 @@
             </div>
           </div><!-- Menu Item -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-specialty">
+          <div class="col-lg-6 menu-item isotope-item filter-thin-crust">
             <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Tuscan Grilled</a><span>$9.95</span>
@@ -72,7 +72,7 @@
             </div>
           </div><!-- Menu Item -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-starters">
+          <div class="col-lg-6 menu-item isotope-item filter-hand-tossed">
             <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Mozzarella Stick</a><span>$4.95</span>
@@ -82,7 +82,7 @@
             </div>
           </div><!-- Menu Item -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-salads">
+          <div class="col-lg-6 menu-item isotope-item filter-deep-dish">
             <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Greek Salad</a><span>$9.95</span>
@@ -92,7 +92,7 @@
             </div>
           </div><!-- Menu Item -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-salads">
+          <div class="col-lg-6 menu-item isotope-item filter-deep-dish">
             <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Spinach Salad</a><span>$9.95</span>
@@ -102,7 +102,7 @@
             </div>
           </div><!-- Menu Item -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-specialty">
+          <div class="col-lg-6 menu-item isotope-item filter-thin-crust">
             <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Lobster Roll</a><span>$12.95</span>
