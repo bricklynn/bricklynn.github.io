@@ -57,12 +57,12 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero" class="active">Home<br></a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="index.html#hero" class="active">Home<br></a></li>
+            <li><a href="index.html#about">About</a></li>
             <li><a href="menu.html">Menu</a></li>
-            <li><a href="#specials">Specials</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="index.html#specials">Specials</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -219,6 +219,9 @@ Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire 
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-5">The K-Drama Fries</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-6">Tropical Pineapple Cream</a>
+          </li>
         </ul>
       </div>
       <div class="col-lg-9 mt-4 mt-lg-0">
@@ -280,6 +283,18 @@ Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire 
               </div>
               <div class="col-lg-4 text-center order-1 order-lg-2">
                 <img src="assets/img/k-drama.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="specials-tab-6">
+            <div class="row">
+              <div class="col-lg-8 details order-2 order-lg-1">
+                <h3>Tropical Pineapple Cream</h3>
+                <p class="fst-italic">Pineapple syrup, Milk, Whipping Cream</p>
+                <p>Indulge in the Tropical Pineapple Cream, a delightful dessert that captures the essence of a sun-soaked paradise. This refreshing treat features luscious pineapple syrup, expertly blended with creamy milk and whipped to perfection, resulting in an irresistibly smooth texture. Each spoonful delivers a perfect balance of sweetness and tang, offering a rich and frosty escape that tantalizes your taste buds. Perfectly suited for warm days or any occasion, this delightful dessert transports you to a tropical oasis, making every bite a blissful experience that leaves you craving more.</p>
+              </div>
+              <div class="col-lg-4 text-center order-1 order-lg-2">
+                <img src="assets/img/pepperoni-magnifico.png" alt="" class="img-fluid">
               </div>
             </div>
           </div>
@@ -496,10 +511,6 @@ Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire 
         <p>Contact Us</p>
       </div><!-- End Section Title -->
 
-      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div><!-- End Google Maps -->
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
@@ -509,15 +520,16 @@ Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire 
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h3>Location</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>DB 43, Sector 1, Kolkata - 700064
+                </p>
               </div>
             </div><!-- End Info Item -->
 
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-telephone flex-shrink-0"></i>
+              <i class="bi bi-clock flex-shrink-0"></i>
               <div>
                 <h3>Open Hours</h3>
-                <p>Monday-Saturday:<br>11:00 AM - 2300 PM</p>
+                <p>Monday-Sunday:<br>12:00 PM - 11:00 PM</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -525,7 +537,7 @@ Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire 
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <p>+91 91473 69561</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -533,42 +545,16 @@ Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire 
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <p>bricklynn.in@gmail.com</p>
               </div>
             </div><!-- End Info Item -->
 
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+              <iframe style="border:0; width: 100%; height: 340px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14735.210621589506!2d88.4033156!3d22.5864831!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02751a354cb99b%3A0xd221a56139595b90!2sBricklynn!5e0!3m2!1sen!2sin!4v1730234200347!5m2!1sen!2sin" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div><!-- End Google Maps -->
           </div><!-- End Contact Form -->
 
         </div>
@@ -644,7 +630,7 @@ Beyond his own success, Nilay mentors aspiring entrepreneurs, hoping to inspire 
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Developed and Maintained by <a href="https://sagnikmitra.com/">Sagnik</a><br>Web Base by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
 
