@@ -48,7 +48,7 @@
               <a href="#">Crab Cake</a><span>$7.95</span>
             </div>
             <div class="menu-ingredients">
-              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+              A delicate crab cake served on a toasted roll and tartar sauce
             </div>
           </div><!-- Menu Item -->
 
@@ -108,7 +108,7 @@
               <a href="#">Lobster Roll</a><span>$12.95</span>
             </div>
             <div class="menu-ingredients">
-              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+              Plump lobster meat, mayo and crisp on a toasted bulky roll
             </div>
           </div><!-- Menu Item -->
 
